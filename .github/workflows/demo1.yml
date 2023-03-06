@@ -10,11 +10,11 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - "dev-*"
-      - "feat/**"
-      - "master"
+      - dev-*
+      - feat/**
+      - master
     paths-ignore:
-      - ".github/workflows/*"
+      - '.github/workflows/*'
     
 jobs:
   deploy:
